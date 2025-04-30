@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CCTV Security Blog | Tips, Guides & Industry Updates</title>
+  <meta name="description" content="Stay informed with our CCTV security blog featuring tips, how-to guides, and the latest industry updates on surveillance technology." />
+  <meta name="keywords" content="CCTV security blog, CCTV installation tips, how to choose CCTV cameras, CCTV maintenance, surveillance technology updates" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-['Roboto'] text-gray-800">
+  <header class="bg-white shadow">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="index.html" class="text-2xl font-bold text-blue-700">SecureCCTV</a>
+      <nav class="space-x-6 text-gray-700 hidden md:flex">
+        <a href="index.html" class="hover:text-blue-700">Home</a>
+        <a href="products.html" class="hover:text-blue-700">Products</a>
+        <a href="installation.html" class="hover:text-blue-700">Installation</a>
+        <a href="blog.html" class="hover:text-blue-700 font-semibold border-b-2 border-blue-700">Blog</a>
+        <a href="about.html" class="hover:text-blue-700">About Us</a>
+        <a href="contact.html" class="hover:text-blue-700">Contact</a>
+      </nav>
+      <div class="md:hidden">
+        <button id="menu-btn" aria-label="Toggle menu" class="text-gray-700 focus:outline-none">
+          <i class="fas fa-bars fa-lg"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-12 max-w-4xl">
+    <h1 class="text-3xl font-bold mb-6">CCTV Security Blog</h1>
+
+    <article class="mb-8 bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-semibold mb-2">The Importance of CCTV Cameras for Home Security</h2>
+      <p class="mb-4">Installing CCTV cameras is one of the most effective ways to protect your home from theft and vandalism. Learn how cameras deter criminals and provide peace of mind.</p>
+      <a href="products.html#securecam-pro-wireless" class="text-blue-700 font-semibold hover:underline">Check out our top indoor wireless camera</a>
+    </article>
+
+    <article class="mb-8 bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-semibold mb-2">How to Choose the Right CCTV Camera for Your Business</h2>
+      <p class="mb-4">Choosing the right CCTV camera depends on your business needs, location, and budget. This guide helps you select the best camera type and features.</p>
+      <a href="products.html#outdoorguard-wired-camera" class="text-blue-700 font-semibold hover:underline">Explore our outdoor wired camera options</a>
+    </article>
+
+    <article class="mb-8 bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-semibold mb-2">Installation Tips for Your CCTV System</h2>
+      <p class="mb-4">Proper installation is key to maximizing your CCTV system’s effectiveness. Discover expert tips on camera placement, wiring, and maintenance.</p>
+      <a href="installation.html" class="text-blue-700 font-semibold hover:underline">Learn more about our installation services</a>
+    </article>
+
+    <article class="mb-8 bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-semibold mb-2">Troubleshooting Common CCTV Issues</h2>
+      <p class="mb-4">Experiencing problems with your CCTV system? This article covers common issues and how to fix them quickly and easily.</p>
+      <a href="contact.html" class="text-blue-700 font-semibold hover:underline">Contact our support team for help</a>
+    </article>
+
+    <article class="mb-8 bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-semibold mb-2">Latest Trends in CCTV Technology</h2>
+      <p class="mb-4">Stay up to date with the newest advancements in CCTV technology, including AI-powered cameras, cloud storage, and smart home integration.</p>
+      <a href="blog.html" class="text-blue-700 font-semibold hover:underline">Read more articles</a>
+    </article>
+  </main>
+
+  <footer class="bg-white border-t mt-16">
+    <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
+      <p>© 2024 SecureCCTV. All rights reserved.</p>
+      <div class="space-x-4 mt-4 md:mt-0">
+        <a href="#" aria-label="Facebook" class="hover:text-blue-600"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#" aria-label="Twitter" class="hover:text-blue-400"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#" aria-label="Instagram" class="hover:text-pink-600"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#" aria-label="LinkedIn" class="hover:text-blue-700"><i class="fab fa-linkedin fa-lg"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const nav = document.querySelector('nav');
+    menuBtn.addEventListener('click', () => {
+      nav.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
